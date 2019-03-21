@@ -1,7 +1,7 @@
 #  Features
-•     Using RevolutApi to fetch rates for currencies
-•     All the rates are displayed in a tableview. Top row of the table signifies the base currency.
-•     Base currency can be changed by tapping any row of the tableview. Tapped row becomes the base currency and              rates are fetched based on new base currency.
+-> Using RevolutApi to fetch rates for currencies.
+-> All the rates are displayed in a tableview. Top row of the table signifies the base currency.
+-> Base currency can be changed by tapping any row of the tableview. Tapped row becomes the base currency and              rates are fetched based on new base currency.
 
 # Architecture Used 
 MVVM-C - Model View ViewModel with Coordinator
