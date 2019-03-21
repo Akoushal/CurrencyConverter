@@ -39,22 +39,18 @@ class RateCell: UITableViewCell {
     //Mark: - Private Methods
     
     //Selected Cell
-    private func configureAsInputCell()
-    {
+    private func configureAsInputCell() {
         amountTextField.isUserInteractionEnabled = true
         amountTextField.becomeFirstResponder()
     }
     
     //Unselected Cells
-    private func configureAsDisplayCell()
-    {
+    private func configureAsDisplayCell() {
         amountTextField.isUserInteractionEnabled = false
         amountTextField.resignFirstResponder()
-        contentView.backgroundColor = .clear
     }
     
-    private func updateCurrencyAmountTextField(amountToConvert: Double, conversionRate: Double)
-    {
+    private func updateCurrencyAmountTextField(amountToConvert: Double, conversionRate: Double) {
         let fmt = NumberFormatter()
         fmt.locale = Locale(identifier: "en_US_POSIX")
         fmt.maximumFractionDigits = 2
