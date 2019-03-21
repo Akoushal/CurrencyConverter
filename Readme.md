@@ -1,10 +1,10 @@
 #  Features
-•     OpenWeatherAPI to fetch weather information of 16 days
-•     TopView Displays weather information of current day
-•     TableView displaying weather information of next 15 days
+•     Using RevolutApi to fetch rates for currencies
+•     All the rates are displayed in a tableview. Top row of the table signifies the base currency.
+•     Base currency can be changed by tapping any row of the tableview. Tapped row becomes the base currency and              rates are fetched based on new base currency.
 
 # Architecture Used 
-## MVVM-C - Model View ViewModel with Coordinator
+MVVM-C - Model View ViewModel with Coordinator
 
 # Requirements
 •    iOS 11.4+
@@ -23,4 +23,5 @@ https://api.ratesexchange.eu/client/latestdetails?apiKey=a2e94da6-bc76-4a90-94fa
 
 ## For Flags
 https://github.com/Worldremit/flags
+
 
