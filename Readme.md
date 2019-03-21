@@ -6,6 +6,17 @@
 # Architecture Used 
 MVVM-C - Model View ViewModel with Coordinator
 
+# Structure
+## Configuration - Defining constants to be used
+## Coordinator - For initializing Controller and navigation
+## EventHandler - Conforms to various events and updations
+## Model - Datastructures used
+## Polling - Request on demand
+## Providers - Data Providers
+## Service - API Router and handling
+## ViewModelProtocol - To store and manage UI-related data
+## Controller - Initializing UI components
+
 # Requirements
 •    iOS 11.4+
 •    Xcode 10.1
