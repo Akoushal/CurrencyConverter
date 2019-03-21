@@ -4,7 +4,7 @@
 ### -> Base currency can be changed by tapping any row of the tableview. Tapped row becomes the base currency and rates are fetched based on new base currency.
 
 # Sample
-/Users/kumarajitesh.koushal/Desktop/CurrencyConverter.mp4
+https://streamable.com/s/o61mx/otoaro
 
 # Architecture Used 
 ## MVVM-C - Model View ViewModel with Coordinator
