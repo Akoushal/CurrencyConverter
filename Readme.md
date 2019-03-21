@@ -16,6 +16,8 @@
 ### Service - API Router and handling
 ### ViewModelProtocol - To store and manage UI-related data
 ### Controller - Initializing UI components
+### Helpers & Extensions - Helper and extension classes
+### Resources - Mocked JSON
 
 # Requirements
 ### iOS 12.1
